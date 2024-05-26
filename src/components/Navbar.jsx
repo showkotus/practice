@@ -3,10 +3,11 @@ import useAuth from "../hooks/useAuth";
 
 const Navbar = () => {
   const { logout, user } = useAuth();
+  // console.log(user);
 
-  const handleLogout = async()=>{
-    await logout()
-  }
+  const handleLogout = async () => {
+    await logout();
+  };
 
   return (
     <div className="navbar bg-base-100">

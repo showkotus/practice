@@ -2,7 +2,7 @@ import useAuth from "../hooks/useAuth";
 
 const Dashboard = () => {
   const { user } = useAuth();
-  console.log(user);
+  // console.log(user);
   return (
     <div>
       <div className="mockup-browser border border-base-300">
